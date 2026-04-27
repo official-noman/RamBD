@@ -1,0 +1,29 @@
+# cPanel Node.js Application Configuration (Optimized for Next.js)
+RewriteEngine On
+
+# 1. Force HTTPS (Highly Recommended)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Serve static files inside /.next/static/ directly
+# This prevents MIME type errors (application/json instead of js)
+RewriteCond %{REQUEST_URI} ^/_next/static/(.*)$
+RewriteRule ^_next/static/(.*)$ .next/static/$1 [L]
+
+# 3. Serve files inside /public/ directly (images, robots.txt, etc)
+RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
+RewriteRule ^(.*)$ public/$1 [L]
+
+# 4. Handle all other requests via Node.js Application
+# cPanel Passenger will automatically handle all other requests
+# Do NOT use a RewriteRule [P] (Proxy) here as it conflicts with Passenger.
+
+# 5. Security and Headers
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
