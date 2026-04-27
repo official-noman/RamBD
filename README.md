@@ -188,7 +188,7 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 **Developer:** **Abdullah Al Noman**  
 **GitHub:** [@official-noman](https://github.com/official-noman)  
-**Email:** [noman.official@example.com] *(Update this if needed)*
+**Email:** [official.aanoman@gmail.com] 
 
 **Support the Project:** Give a ⭐ on GitHub!
 
