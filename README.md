@@ -1,13 +1,15 @@
-# 🚀 Antigravity
+# 🚀 RamBD - E-Commerce Solution
 
-### **"Elevate Your Commerce: A High-Performance, Enterprise-Grade Next.js Solution"**
+### **"A High-Performance, Enterprise-Grade Next.js E-Commerce Platform"**
 
 <div align="center">
-  <img src="https://i.ibb.co/ynXWk5S/bonik-intro-sale.gif" alt="Antigravity Banner" width="100%" />
+  <img src="https://i.ibb.co/ynXWk5S/bonik-intro-sale.gif" alt="RamBD Banner" width="100%" />
   <br />
   <p align="center">
-    <b>The ultimate foundation for modern, scalable, and SEO-optimized e-commerce platforms.</b>
+    <b>Crafted by <a href="https://github.com/official-noman">Abdullah Al Noman</a></b>
     <br />
+    <i>The ultimate foundation for modern, scalable, and SEO-optimized e-commerce platforms.</i>
+    <br /><br />
     <a href="#-getting-started">Getting Started</a> •
     <a href="#-key-features">Key Features</a> •
     <a href="#-architecture">Architecture</a> •
@@ -17,9 +19,9 @@
 
 ---
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/[Insert-Username]/antigravity)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/official-noman/RamBD)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-3.1.0-blue.svg)](https://github.com/[Insert-Username]/antigravity/releases)
+[![Version](https://img.shields.io/badge/version-3.1.0-blue.svg)](https://github.com/official-noman/RamBD/releases)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black.svg?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
@@ -47,12 +49,12 @@
 
 ## 📖 Project Overview
 
-**Antigravity** is a premium, multi-purpose eCommerce solution engineered with **Next.js 15**, **TypeScript**, and **Styled Components**. It is designed to solve the complexities of modern digital retail by providing a robust, scalable, and performance-first architecture.
+**RamBD** is a premium, multi-purpose eCommerce solution engineered with **Next.js 15**, **TypeScript**, and **Styled Components**. This project is a demonstration of modern web engineering principles, focusing on high performance, maintainability, and user experience.
 
-Whether you are building a global superstore, a local grocery delivery service, or a specialized niche market, Antigravity offers the flexibility and power to launch and scale rapidly. It bridges the gap between high-end design aesthetics and technical excellence.
+Developed by **Abdullah Al Noman**, RamBD provides a robust, scalable architecture for diverse retail needs—ranging from global superstores to niche market applications.
 
-> **Why Antigravity?**
-> In an era where every millisecond counts, Antigravity ensures your store is lightning-fast, fully responsive, and SEO-ready out of the box, giving you a competitive edge in the marketplace.
+> **Technical Vision:**
+> To provide a lightning-fast, fully responsive, and SEO-ready foundation that empowers businesses to scale without technical debt.
 
 ---
 
@@ -72,7 +74,7 @@ Whether you are building a global superstore, a local grocery delivery service, 
 
 ## 🏗️ Architecture / Tech Stack
 
-Antigravity follows a modern, modular architecture that prioritizes developer experience and maintainability.
+RamBD follows a modern, modular architecture that prioritizes developer experience and maintainability.
 
 - **Frontend**: [Next.js 15](https://nextjs.org/) (App Router)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -92,14 +94,14 @@ Antigravity follows a modern, modular architecture that prioritizes developer ex
 Before you begin, ensure you have the following installed:
 - **Node.js**: v18.0.0 or higher
 - **npm**: v9.0.0 or higher
-- **Git** (optional, for cloning)
+- **Git**
 
 ### Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/[Insert-Username]/antigravity.git
-   cd antigravity
+   git clone https://github.com/official-noman/RamBD.git
+   cd RamBD
    ```
 
 2. **Install dependencies:**
@@ -108,7 +110,7 @@ Before you begin, ensure you have the following installed:
    ```
 
 3. **Configure Environment Variables:**
-   Create a `.env` file in the root directory and add your configuration details.
+   Create a `.env` file in the root directory.
    ```bash
    cp .env.example .env
    ```
@@ -131,7 +133,7 @@ npm run build
 ```
 
 #### Automated cPanel Deployment
-Antigravity includes a specialized pipeline for cPanel:
+RamBD includes a specialized pipeline for cPanel:
 ```bash
 npm run package-deploy
 ```
@@ -149,7 +151,7 @@ The system can be configured via `general_settings.json` and `.env` files.
 | Variable | Description | Default |
 |----------|-------------|---------|
 | `NEXT_PUBLIC_API_URL` | Base URL for your API endpoints | `http://localhost:3000/api` |
-| `SITE_NAME` | The name of your eCommerce store | `Antigravity` |
+| `SITE_NAME` | The name of your eCommerce store | `RamBD` |
 | `CURRENCY` | Default currency code | `USD` |
 
 ---
@@ -166,7 +168,7 @@ The system can be configured via `general_settings.json` and `.env` files.
 
 ## 🤝 Contributing
 
-Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions make the open-source community an amazing place to learn, inspire, and create.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -184,14 +186,14 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ## 📞 Contact / Support
 
-**Project Lead:** [Insert Name]  
-**Email:** [Insert Email]  
-**Website:** [Insert Website]
+**Developer:** **Abdullah Al Noman**  
+**GitHub:** [@official-noman](https://github.com/official-noman)  
+**Email:** [noman.official@example.com] *(Update this if needed)*
 
-**Support the Project:** Give us a ⭐ on GitHub!
+**Support the Project:** Give a ⭐ on GitHub!
 
 ---
 
 <p align="center">
-  Made with ❤️ by the Antigravity Team
+  Crafted with ❤️ by <a href="https://github.com/official-noman">Abdullah Al Noman</a>
 </p>
